@@ -1,4 +1,4 @@
-This repository contains lab work / assignments obtained from Chegg.com. 🇺🇸
+This repository contains lab work / assignments obtained from Chegg.com. 🇺🇸 \n
 All lab work / assignments test on object-oriented concepts using Java. ☕️
 Most of the source codes were my own work with some help from my classmates. 🖥 💻
 We ain't take any Expert's answers coz we ain't got no premium accounts 🥲
