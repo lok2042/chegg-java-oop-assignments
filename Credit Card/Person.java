@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Person {
 	
 	private String firstname;
