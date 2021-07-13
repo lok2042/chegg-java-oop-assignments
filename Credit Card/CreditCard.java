@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class CreditCard {
 	
 	private Money balance;
