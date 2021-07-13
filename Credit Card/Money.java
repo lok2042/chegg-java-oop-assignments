@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Money {
 	
 	private long dollars;
