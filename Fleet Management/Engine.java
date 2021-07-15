@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Engine {
 	
 	private int accelerateAmount;
