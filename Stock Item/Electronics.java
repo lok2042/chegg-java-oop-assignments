@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Electronics extends StockItem {
 	
 	private String type;
