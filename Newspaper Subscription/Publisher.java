@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Publisher {
 	
 	private Newspaper [] newspaperList;
