@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public abstract class Vehicle {
 	
 	protected Engine engine;
