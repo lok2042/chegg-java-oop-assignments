@@ -16,37 +16,29 @@ public class Main {
         object[8] = new Electronics("I",50,0,10.5,"In Home Appliance",1200); // Out of stock
         object[9] = new Electronics("J",50,2,10.5,"In Home Appliance",2200);
         
-        for(int i = 0; i < 5; i++) {
-        	if(((Grocery) object[i]).getProductionYear() < 2019) {
-        		System.out.println(object[i]); // toString can be invoked just using the object name
+        // Prints all Grocery items that have  a production year less than 2019
+        for(int i = 0; i < object.length; i++) {
+        	if(object[i].getClass().getName().contains("Grocery")) {
+            	if(((Grocery) object[i]).getProductionYear() < 2019) {
+            		System.out.println(object[i]);
+            	}
         	}
         }
-      
+        System.out.println();
+        
+        // Counts the number of electronics that are out of stock
         int count = 0;
         System.out.println("Electronics out of stock: ");
-        for(int i = 5; i < 10; i++) {
-        	if((object[i]).getQuantity() == 0) {
-        		System.out.println(object[i]);
-        		count++;
+        for(int i = 0; i < object.length; i++) {
+        	if(object[i].getClass().getName().contains("Electronics")) {
+            	if((object[i]).getQuantity() == 0) {
+            		System.out.println(object[i]);
+            		count++;
+            	}
         	}
         }
         System.out.println("Total : " + count);
-
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter all information about a Grocery item");
-        System.out.print("Brand :");
-        String brand = input.nextLine();
-        System.out.print("Price :");
-        double price = input.nextDouble();
-        System.out.print("Quantity :");
-        int quantity = input.nextInt();
-        System.out.print("Discount :");
-        
-        for(int i = 0; i < 5; i++) {
-            if (object[i].equals(brand, price, quantity, discount)) {
-                System.out.println("Item Exist");
-            }
-        }
+        System.out.println();
 
     }
 }
