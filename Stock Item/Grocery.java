@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Grocery extends StockItem {
 	
 	private int productionYear;
