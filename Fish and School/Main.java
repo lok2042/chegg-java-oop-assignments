@@ -1,7 +1,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-    Fish fish1 = new Fish("Nemo", "clownfish", 0.2);
+    		Fish fish1 = new Fish("Nemo", "clownfish", 0.2);
 		Fish fish2 = new Fish("Marlin", "clownfish", 0.3);
 		Fish fish3 = new Fish("Peach", "starfish", 0.5);
 		Fish fish4 = new Fish("Bruce 01", "shark", 6.5);
