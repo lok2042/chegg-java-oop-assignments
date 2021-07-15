@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Car extends Vehicle {
 	
 	public Car(Engine engine, String licensePlate, String make, String model) {
