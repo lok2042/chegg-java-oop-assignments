@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class StockItem {
 	
 	protected String brand;
