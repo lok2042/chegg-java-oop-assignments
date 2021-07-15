@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Subscription {
 	
 	private String name;
