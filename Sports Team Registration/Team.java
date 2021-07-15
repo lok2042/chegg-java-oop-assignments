@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Team {
 	
 	private String name;
