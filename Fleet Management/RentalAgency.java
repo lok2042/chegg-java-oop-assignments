@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class RentalAgency {
 	
 	private String companyName;
