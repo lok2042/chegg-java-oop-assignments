@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
   
     public static void main(String[] args) {
@@ -18,11 +16,9 @@ public class Main {
         
         // Prints all Grocery items that have  a production year less than 2019
         for(int i = 0; i < object.length; i++) {
-        	if(object[i].getClass().getName().contains("Grocery")) {
-            	if(((Grocery) object[i]).getProductionYear() < 2019) {
-            		System.out.println(object[i]);
-            	}
-        	}
+          if(object[i].getClass().getName().contains("Grocery")) {
+            if(((Grocery) object[i]).getProductionYear() < 2019) System.out.println(object[i]);
+          }
         }
         System.out.println();
         
@@ -30,12 +26,12 @@ public class Main {
         int count = 0;
         System.out.println("Electronics out of stock: ");
         for(int i = 0; i < object.length; i++) {
-        	if(object[i].getClass().getName().contains("Electronics")) {
-            	if((object[i]).getQuantity() == 0) {
-            		System.out.println(object[i]);
-            		count++;
-            	}
-        	}
+          if(object[i].getClass().getName().contains("Electronics")) {
+            if((object[i]).getQuantity() == 0) {
+              System.out.println(object[i]);
+              count++;
+            }
+          }
         }
         System.out.println("Total : " + count);
         System.out.println();
