@@ -2,7 +2,7 @@
 public class Main {
 
   public static void main(String[] args) {
-    		Engine teslaEngine = new Engine(25);
+		Engine teslaEngine = new Engine(25);
 		System.out.println(teslaEngine + "\n");
 		
 		Car car1 = new Car(teslaEngine, "STR1234", "2021", "Tesla Model X");
