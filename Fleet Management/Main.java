@@ -33,7 +33,6 @@ public class Main {
 		sa.addMotorcycle(motor1);
 		sa.addMotorcycle(motor2);
 		sa.addMotorcycle(motor3);
-		
 		sa.displayMotorcycleFleet();
   }
 }
