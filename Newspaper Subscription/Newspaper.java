@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Newspaper {
 	
 	private String name;
