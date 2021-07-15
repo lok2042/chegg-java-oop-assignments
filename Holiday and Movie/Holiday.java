@@ -1,5 +1,3 @@
-package practiceProblems;
-
 public class Holiday {
 	
 	private String name;
